@@ -6,7 +6,7 @@ This repository documents the architecture, workflow, and results of a security 
 
 ---
 
-## 🌐 Overview
+##  Overview
 
 This project was designed in two integrated modules:
 
@@ -21,7 +21,7 @@ This project was designed in two integrated modules:
 
 ---
 
-## 🧩 Architecture
+##  Architecture
 
 ![Azure Architecture](architecture/azure_infra_diagram.png)
 
@@ -35,7 +35,7 @@ This project was designed in two integrated modules:
 
 ---
 
-## 🔁 Workflow
+##  Workflow
 
 ![Workflow Diagram](architecture/workflow_diagram.png)
 
@@ -46,7 +46,7 @@ This project was designed in two integrated modules:
 
 ---
 
-## 📊 Sample Visualizations
+##  Sample Visualizations
 
 ### Failed RDP Traffic Over Time
 ![Failed RDP World Map](architecture/rdp_failed_map.png)
@@ -56,14 +56,14 @@ This project was designed in two integrated modules:
 
 ---
 
-## 📄 Report
+##  Report
 
 Detailed write-up of the project goals, implementation, and learning outcomes can be found here:  
 📎 [Final Report (PDF)](report/final_report.pdf)
 
 ---
 
-## ✨ Highlights & Learnings
+##  Highlights & Learnings
 
 - Gained hands-on experience with **Azure Load Balancer**, **VMs**, **Sentinel**, **Log Analytics**, and threat detection workflows
 - Built on a student budget, showcasing low-cost threat intelligence and SIEM integration
@@ -71,7 +71,7 @@ Detailed write-up of the project goals, implementation, and learning outcomes ca
 
 ---
 
-## 🚧 Limitations
+##  Limitations
 
 - The honeypot was a basic RDP setup with limited dynamic responses
 - No real-time mitigation — focused on **logging and visualization** only
