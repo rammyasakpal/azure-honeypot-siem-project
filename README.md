@@ -78,7 +78,3 @@ Detailed write-up of the project goals, implementation, and learning outcomes ca
 
 ---
 
-## 📬 Contact
-
-Feel free to reach out for collaboration or questions:  
-📧 [YourEmail@example.com]
