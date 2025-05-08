@@ -3,11 +3,12 @@ HEAD
 
 This repository documents the architecture, workflow, and results of a security project built using **Azure Cloud, Load Balancer, VMs, Honeypot Logging, Azure Log Analytics, and Azure Sentinel**.
 
-> **Note:** Source code is not available as this was a proof-of-concept architecture built using platform configuration and visualization tools.
+> **Note:** This project focuses on secure architecture design and network monitoring using Azure services. While source code is not included, all infrastructure, visualization, and analysis components were implemented and tested.
+
 
 ---
 
-## 🌐 Overview
+## Overview
 
 This project was designed in two integrated modules:
 
@@ -22,7 +23,7 @@ This project was designed in two integrated modules:
 
 ---
 
-## 🧩 Architecture
+##  Architecture
 
 ![Azure Architecture](architecture/azure_infra_diagram.png)
 
@@ -36,7 +37,7 @@ This project was designed in two integrated modules:
 
 ---
 
-## 🔁 Workflow
+##  Workflow
 
 ![Workflow Diagram](architecture/workflow_diagram.png)
 
@@ -47,7 +48,7 @@ This project was designed in two integrated modules:
 
 ---
 
-## 📊 Sample Visualizations
+##  Sample Visualizations
 
 ### Failed RDP Traffic Over Time
 ![Failed RDP World Map](architecture/rdp_failed_map.png)
@@ -57,14 +58,14 @@ This project was designed in two integrated modules:
 
 ---
 
-## 📄 Report
+##  Report
 
 Detailed write-up of the project goals, implementation, and learning outcomes can be found here:  
 📎 [Final Report (PDF)](report/final_report.pdf)
 
 ---
 
-## ✨ Highlights & Learnings
+##  Highlights & Learnings
 
 - Gained hands-on experience with **Azure Load Balancer**, **VMs**, **Sentinel**, **Log Analytics**, and threat detection workflows
 - Built on a student budget, showcasing low-cost threat intelligence and SIEM integration
@@ -72,10 +73,8 @@ Detailed write-up of the project goals, implementation, and learning outcomes ca
 
 ---
 
-## 🚧 Limitations
+##  Limitations
 
-- The honeypot was a basic RDP setup with limited dynamic responses
-- No real-time mitigation — focused on **logging and visualization** only
-
----
-
+- The honeypot implementation was passive (no dynamic response or deception-based traps).
+- The system focused on analysis and visualization, not active threat mitigation.
+- No authentication or persistent data storage mechanisms were added for production-grade deployment.
